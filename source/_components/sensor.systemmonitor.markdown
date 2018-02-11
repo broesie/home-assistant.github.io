@@ -64,10 +64,10 @@ The table contains types and their argument to use in your `configuration.yaml` 
 
 | Sensor type         | Entity ID                |
 | :------------------ |:-------------------------|
-| memory_free         | sensor.ram_available     |
-| memory_use_percent  | sensor.ram_used          |
-| processor_use       | sensor.cpu_used          |
-| disk_use            | sensor.disk_used         |
+| memory_free         | sensor.memory_free       |
+| memory_use_percent  | sensor.memory_use        |
+| processor_use       | sensor.processor_use     |
+| disk_use            | sensor.disk_use          |
 
 ## {% linkable_title Linux specific %}
 
